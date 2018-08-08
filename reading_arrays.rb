@@ -13,12 +13,12 @@ def first_student_by_index
 end
 
 def fourth_student_by_index
-  STUDENT_NAMES[4]
+  STUDENT_NAMES[3]
   # Write a solution that returns the fourth student in the array student_names
 end
 
 def last_student_by_index
-  STUDENT_NAMES[6]
+  STUDENT_NAMES[5]
   # Write a solution that returns the last student in the array student_names
 end
 
@@ -33,6 +33,6 @@ def last_student_by_method
 end
 
 def first_second_and_third_students
-  STUDENT_NAMES[1,2,3]
+  STUDENT_NAMES[0,1,2]
   # Write a solution that returns the first, second and third students
 end
