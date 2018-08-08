@@ -8,26 +8,31 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
-  
+  STUDENT_NAMES[0] 
   # Write a solution that returns the first student in the array student_names
 end
 
 def fourth_student_by_index
+  STUDENT_NAMES[4]
   # Write a solution that returns the fourth student in the array student_names
 end
 
 def last_student_by_index
+  STUDENT_NAMES[6]
   # Write a solution that returns the last student in the array student_names
 end
 
 def first_student_by_method
+  student_names.first 
   # Write a solution that returns the first student using the built in .first method
 end
 
 def last_student_by_method
+  student_names.last 
   # Write a solution that returns the last student using the built in .last method
 end
 
 def first_second_and_third_students
+  STUDENT_NAMES[1,2,3]
   # Write a solution that returns the first, second and third students
 end
